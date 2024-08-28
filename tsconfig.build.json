@@ -1,0 +1,6 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "flight-booking-backend/node_modules",
+    "test", "dist", "**/*spec.ts"]
+}
