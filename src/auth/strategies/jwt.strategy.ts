@@ -1,15 +1,19 @@
-// src/auth/strategies/jwt.strategy.ts
 import { Injectable } from '@nestjs/common';
 import { PassportStrategy } from '@nestjs/passport';
 import { ExtractJwt, Strategy } from 'passport-jwt';
+import { ConfigService } from '@nestjs/config';
 
+/**
+ * A class representing a JSON Web Token (JWT) authentication strategy.
+ * So we can easily change the algorithm.
+ */
 @Injectable()
 export class JwtStrategy extends PassportStrategy(Strategy) {
-  constructor() {
+  constructor(private configService: ConfigService) {
     super({
       jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
       ignoreExpiration: false,
-      secretOrKey: process.env.JWT_SECRET || 'your_jwt_secret', // Use environment variable for secret
+      secretOrKey: configService.get("JWT_SECRET"), // Use environment variable for secret
     });
   }
 
