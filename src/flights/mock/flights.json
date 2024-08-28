@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "origin": "NYC",
+    "destination": "LAX",
+    "date": "2024-09-01",
+    "price": 300
+  },
+  {
+    "id": 2,
+    "origin": "SFO",
+    "destination": "SEA",
+    "date": "2024-09-02",
+    "price": 150
+  },
+  {
+    "id": 3,
+    "origin": "LAX",
+    "destination": "NYC",
+    "date": "2024-09-03",
+    "price": 350
+  },
+  {
+    "id": 4,
+    "origin": "MIA",
+    "destination": "DFW",
+    "date": "2024-09-04",
+    "price": 290
+  },
+  {
+    "id": 5,
+    "origin": "ORD",
+    "destination": "DEN",
+    "date": "2024-09-05",
+    "price": 200
+  },
+  {
+    "id": 6,
+    "origin": "ATL",
+    "destination": "BOS",
+    "date": "2024-09-06",
+    "price": 180
+  },
+  {
+    "id": 7,
+    "origin": "SEA",
+    "destination": "ORD",
+    "date": "2024-09-07",
+    "price": 270
+  },
+  {
+    "id": 8,
+    "origin": "HOU",
+    "destination": "PHX",
+    "date": "2024-09-08",
+    "price": 170
+  },
+  {
+    "id": 9,
+    "origin": "LAS",
+    "destination": "MIA",
+    "date": "2024-09-09",
+    "price": 310
+  },
+  {
+    "id": 10,
+    "origin": "PHI",
+    "destination": "ATL",
+    "date": "2024-09-10",
+    "price": 230
+  },
+  {
+    "id": 11,
+    "origin": "LAX",
+    "destination": "ORD",
+    "date": "2024-09-11",
+    "price": 300
+  },
+  {
+    "id": 12,
+    "origin": "NYC",
+    "destination": "SEA",
+    "date": "2024-09-12",
+    "price": 320
+  },
+  {
+    "id": 13,
+    "origin": "SFO",
+    "destination": "MIA",
+    "date": "2024-09-13",
+    "price": 250
+  },
+  {
+    "id": 14,
+    "origin": "DFW",
+    "destination": "NYC",
+    "date": "2024-09-14",
+    "price": 280
+  },
+  {
+    "id": 15,
+    "origin": "DEN",
+    "destination": "LAX",
+    "date": "2024-09-15",
+    "price": 260
+  },
+  {
+    "id": 16,
+    "origin": "BOS",
+    "destination": "SFO",
+    "date": "2024-09-16",
+    "price": 290
+  },
+  {
+    "id": 17,
+    "origin": "ORD",
+    "destination": "ATL",
+    "date": "2024-09-17",
+    "price": 180
+  },
+  {
+    "id": 18,
+    "origin": "SEA",
+    "destination": "PHI",
+    "date": "2024-09-18",
+    "price": 290
+  },
+  {
+    "id": 19,
+    "origin": "PHX",
+    "destination": "ORD",
+    "date": "2024-09-19",
+    "price": 270
+  },
+  {
+    "id": 20,
+    "origin": "MIA",
+    "destination": "LAS",
+    "date": "2024-09-20",
+    "price": 310
+  },
+  {
+    "id": 21,
+    "origin": "ATL",
+    "destination": "NYC",
+    "date": "2024-09-21",
+    "price": 240
+  },
+  {
+    "id": 22,
+    "origin": "ORD",
+    "destination": "LAX",
+    "date": "2024-09-22",
+    "price": 300
+  },
+  {
+    "id": 23,
+    "origin": "SEA",
+    "destination": "SFO",
+    "date": "2024-09-23",
+    "price": 150
+  },
+  {
+    "id": 24,
+    "origin": "LAX",
+    "destination": "DEN",
+    "date": "2024-09-24",
+    "price": 260
+  },
+  {
+    "id": 25,
+    "origin": "DFW",
+    "destination": "MIA",
+    "date": "2024-09-25",
+    "price": 280
+  },
+  {
+    "id": 26,
+    "origin": "NYC",
+    "destination": "ORD",
+    "date": "2024-09-26",
+    "price": 320
+  },
+  {
+    "id": 27,
+    "origin": "SFO",
+    "destination": "PHX",
+    "date": "2024-09-27",
+    "price": 240
+  },
+  {
+    "id": 28,
+    "origin": "MIA",
+    "destination": "SEA",
+    "date": "2024-09-28",
+    "price": 330
+  },
+  {
+    "id": 29,
+    "origin": "ATL",
+    "destination": "HOU",
+    "date": "2024-09-29",
+    "price": 200
+  },
+  {
+    "id": 30,
+    "origin": "PHI",
+    "destination": "SFO",
+    "date": "2024-09-30",
+    "price": 300
+  },
+  {
+    "id": 31,
+    "origin": "DEN",
+    "destination": "PHX",
+    "date": "2024-10-01",
+    "price": 270
+  },
+  {
+    "id": 32,
+    "origin": "SEA",
+    "destination": "LAX",
+    "date": "2024-10-02",
+    "price": 250
+  },
+  {
+    "id": 33,
+    "origin": "HOU",
+    "destination": "DFW",
+    "date": "2024-10-03",
+    "price": 180
+  },
+  {
+    "id": 34,
+    "origin": "ORD",
+    "destination": "SEA",
+    "date": "2024-10-04",
+    "price": 290
+  },
+  {
+    "id": 35,
+    "origin": "NYC",
+    "destination": "MIA",
+    "date": "2024-10-05",
+    "price": 340
+  },
+  {
+    "id": 36,
+    "origin": "LAX",
+    "destination": "ATL",
+    "date": "2024-10-06",
+    "price": 310
+  },
+  {
+    "id": 37,
+    "origin": "SFO",
+    "destination": "ORD",
+    "date": "2024-10-07",
+    "price": 250
+  },
+  {
+    "id": 38,
+    "origin": "SEA",
+    "destination": "PHX",
+    "date": "2024-10-08",
+    "price": 240
+  },
+  {
+    "id": 39,
+    "origin": "ATL",
+    "destination": "LAX",
+    "date": "2024-10-09",
+    "price": 300
+  },
+  {
+    "id": 40,
+    "origin": "MIA",
+    "destination": "NYC",
+    "date": "2024-10-10",
+    "price": 350
+  },
+  {
+    "id": 41,
+    "origin": "ORD",
+    "destination": "BOS",
+    "date": "2024-10-11",
+    "price": 200
+  },
+  {
+    "id": 42,
+    "origin": "NYC",
+    "destination": "SFO",
+    "date": "2024-10-12",
+    "price": 320
+  },
+  {
+    "id": 43,
+    "origin": "PHX",
+    "destination": "DEN",
+    "date": "2024-10-13",
+    "price": 270
+  },
+  {
+    "id": 44,
+    "origin": "LAX",
+    "destination": "NYC",
+    "date": "2024-10-14",
+    "price": 340
+  },
+  {
+    "id": 45,
+    "origin": "DEN",
+    "destination": "SEA",
+    "date": "2024-10-15",
+    "price": 260
+  },
+  {
+    "id": 46,
+    "origin": "SFO",
+    "destination": "MIA",
+    "date": "2024-10-16",
+    "price": 290
+  },
+  {
+    "id": 47,
+    "origin": "SEA",
+    "destination": "ORD",
+    "date": "2024-10-17",
+    "price": 280
+  },
+  {
+    "id": 48,
+    "origin": "MIA",
+    "destination": "PHX",
+    "date": "2024-10-18",
+    "price": 310
+  },
+  {
+    "id": 49,
+    "origin": "ATL",
+    "destination": "SFO",
+    "date": "2024-10-19",
+    "price": 330
+  },
+  {
+    "id": 50,
+    "origin": "SFO",
+    "destination": "NYC",
+    "date": "2024-10-20",
+    "price": 300
+  },
+  {
+    "id": 51,
+    "origin": "NYC",
+    "destination": "PHI",
+    "date": "2024-10-21",
+    "price": 220
+  },
+  {
+    "id": 52,
+    "origin": "PHX",
+    "destination": "ATL",
+    "date": "2024-10-22",
+    "price": 250
+  },
+  {
+    "id": 53,
+    "origin": "BOS",
+    "destination": "NYC",
+    "date": "2024-10-23",
+    "price": 200
+  },
+  {
+    "id": 54,
+    "origin": "SEA",
+    "destination": "MIA",
+    "date": "2024-10-24",
+    "price": 320
+  },
+  {
+    "id": 55,
+    "origin": "DEN",
+    "destination": "SFO",
+    "date": "2024-10-25",
+    "price": 270
+  },
+  {
+    "id": 56,
+    "origin": "ORD",
+    "destination": "LAX",
+    "date": "2024-10-26",
+    "price": 300
+  },
+  {
+    "id": 57,
+    "origin": "HOU",
+    "destination": "NYC",
+    "date": "2024-10-27",
+    "price": 350
+  },
+  {
+    "id": 58,
+    "origin": "MIA",
+    "destination": "ORD",
+    "date": "2024-10-28",
+    "price": 310
+  },
+  {
+    "id": 59,
+    "origin": "PHI",
+    "destination": "SEA",
+    "date": "2024-10-29",
+    "price": 330
+  },
+  {
+    "id": 60,
+    "origin": "NYC",
+    "destination": "BOS",
+    "date": "2024-10-30",
+    "price": 220
+  },
+  {
+    "id": 61,
+    "origin": "ATL",
+    "destination": "DEN",
+    "date": "2024-10-31",
+    "price": 310
+  },
+  {
+    "id": 62,
+    "origin": "LAX",
+    "destination": "SFO",
+    "date": "2024-11-01",
+    "price": 250
+  },
+  {
+    "id": 63,
+    "origin": "SEA",
+    "destination": "BOS",
+    "date": "2024-11-02",
+    "price": 320
+  },
+  {
+    "id": 64,
+    "origin": "PHX",
+    "destination": "HOU",
+    "date": "2024-11-03",
+    "price": 240
+  },
+  {
+    "id": 65,
+    "origin": "MIA",
+    "destination": "NYC",
+    "date": "2024-11-04",
+    "price": 350
+  },
+  {
+    "id": 66,
+    "origin": "BOS",
+    "destination": "PHX",
+    "date": "2024-11-05",
+    "price": 270
+  },
+  {
+    "id": 67,
+    "origin": "ORD",
+    "destination": "SEA",
+    "date": "2024-11-06",
+    "price": 290
+  },
+  {
+    "id": 68,
+    "origin": "LAX",
+    "destination": "MIA",
+    "date": "2024-11-07",
+    "price": 300
+  },
+  {
+    "id": 69,
+    "origin": "DFW",
+    "destination": "NYC",
+    "date": "2024-11-08",
+    "price": 280
+  },
+  {
+    "id": 70,
+    "origin": "SEA",
+    "destination": "DEN",
+    "date": "2024-11-09",
+    "price": 290
+  },
+  {
+    "id": 71,
+    "origin": "ORD",
+    "destination": "PHI",
+    "date": "2024-11-10",
+    "price": 200
+  },
+  {
+    "id": 72,
+    "origin": "NYC",
+    "destination": "LAX",
+    "date": "2024-11-11",
+    "price": 320
+  },
+  {
+    "id": 73,
+    "origin": "SFO",
+    "destination": "SEA",
+    "date": "2024-11-12",
+    "price": 160
+  },
+  {
+    "id": 74,
+    "origin": "MIA",
+    "destination": "HOU",
+    "date": "2024-11-13",
+    "price": 290
+  },
+  {
+    "id": 75,
+    "origin": "BOS",
+    "destination": "ATL",
+    "date": "2024-11-14",
+    "price": 230
+  },
+  {
+    "id": 76,
+    "origin": "DEN",
+    "destination": "PHX",
+    "date": "2024-11-15",
+    "price": 260
+  },
+  {
+    "id": 77,
+    "origin": "NYC",
+    "destination": "SFO",
+    "date": "2024-11-16",
+    "price": 330
+  },
+  {
+    "id": 78,
+    "origin": "PHI",
+    "destination": "MIA",
+    "date": "2024-11-17",
+    "price": 310
+  },
+  {
+    "id": 79,
+    "origin": "SEA",
+    "destination": "HOU",
+    "date": "2024-11-18",
+    "price": 260
+  },
+  {
+    "id": 80,
+    "origin": "ORD",
+    "destination": "ATL",
+    "date": "2024-11-19",
+    "price": 280
+  },
+  {
+    "id": 81,
+    "origin": "MIA",
+    "destination": "SFO",
+    "date": "2024-11-20",
+    "price": 330
+  },
+  {
+    "id": 82,
+    "origin": "ATL",
+    "destination": "PHX",
+    "date": "2024-11-21",
+    "price": 260
+  },
+  {
+    "id": 83,
+    "origin": "HOU",
+    "destination": "LAX",
+    "date": "2024-11-22",
+    "price": 290
+  },
+  {
+    "id": 84,
+    "origin": "LAX",
+    "destination": "NYC",
+    "date": "2024-11-23",
+    "price": 340
+  },
+  {
+    "id": 85,
+    "origin": "SFO",
+    "destination": "ORD",
+    "date": "2024-11-24",
+    "price": 250
+  },
+  {
+    "id": 86,
+    "origin": "SEA",
+    "destination": "PHI",
+    "date": "2024-11-25",
+    "price": 290
+  },
+  {
+    "id": 87,
+    "origin": "DEN",
+    "destination": "SFO",
+    "date": "2024-11-26",
+    "price": 260
+  },
+  {
+    "id": 88,
+    "origin": "NYC",
+    "destination": "HOU",
+    "date": "2024-11-27",
+    "price": 370
+  },
+  {
+    "id": 89,
+    "origin": "MIA",
+    "destination": "SEA",
+    "date": "2024-11-28",
+    "price": 330
+  },
+  {
+    "id": 90,
+    "origin": "BOS",
+    "destination": "PHX",
+    "date": "2024-11-29",
+    "price": 270
+  },
+  {
+    "id": 91,
+    "origin": "ATL",
+    "destination": "SFO",
+    "date": "2024-11-30",
+    "price": 310
+  },
+  {
+    "id": 92,
+    "origin": "LAX",
+    "destination": "DFW",
+    "date": "2024-12-01",
+    "price": 280
+  },
+  {
+    "id": 93,
+    "origin": "SFO",
+    "destination": "MIA",
+    "date": "2024-12-02",
+    "price": 290
+  },
+  {
+    "id": 94,
+    "origin": "SEA",
+    "destination": "HOU",
+    "date": "2024-12-03",
+    "price": 270
+  },
+  {
+    "id": 95,
+    "origin": "PHX",
+    "destination": "LAX",
+    "date": "2024-12-04",
+    "price": 240
+  },
+  {
+    "id": 96,
+    "origin": "NYC",
+    "destination": "SFO",
+    "date": "2024-12-05",
+    "price": 320
+  },
+  {
+    "id": 97,
+    "origin": "MIA",
+    "destination": "DEN",
+    "date": "2024-12-06",
+    "price": 310
+  },
+  {
+    "id": 98,
+    "origin": "HOU",
+    "destination": "ATL",
+    "date": "2024-12-07",
+    "price": 220
+  },
+  {
+    "id": 99,
+    "origin": "ATL",
+    "destination": "PHI",
+    "date": "2024-12-08",
+    "price": 250
+  },
+  {
+    "id": 100,
+    "origin": "LAX",
+    "destination": "SEA",
+    "date": "2024-12-09",
+    "price": 280
+  }
+]
