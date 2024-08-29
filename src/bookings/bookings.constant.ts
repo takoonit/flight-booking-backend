@@ -1,0 +1,1 @@
+export const BOOKING_REPOSITORY_TOKEN = 'BookingRepositoryToken';
