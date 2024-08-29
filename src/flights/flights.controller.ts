@@ -1,12 +1,14 @@
-import { Controller, Get, Query } from '@nestjs/common';
+import { Controller, Get, Query, UseGuards } from '@nestjs/common';
 import { FlightsService } from './flights.service';
 import { Flight } from './interfaces/flight.interface';
+import { AuthGuard } from '@nestjs/passport';
 
 @Controller('flights')
 export class FlightsController {
   constructor(private readonly flightsService: FlightsService) {}
 
   @Get('search')
+  @UseGuards(AuthGuard('jwt'))
   async searchFlights(
     @Query('origin') origin: string,
     @Query('destination') destination: string,
