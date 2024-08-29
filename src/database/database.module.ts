@@ -9,9 +9,7 @@ import { MongooseModule } from '@nestjs/mongoose'; // Necessary import
       imports: [ConfigModule],
       inject: [ConfigService],
       useFactory: async (configService: ConfigService) => ({
-        uri: configService.get<string>('MONGO_URI', 'mongodb://localhost/nest'), // Added a fallback URI
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
+        uri: configService.get<string>('MONGO_URI', 'mongodb://localhost/nest'), // Fallback URI
       }),
     }),
   ],
