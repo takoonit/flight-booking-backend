@@ -7,7 +7,7 @@ import { INestApplication } from '@nestjs/common';
 
 async function bootstrap(port: number) {
   const app = await NestFactory.create(AppModule);
-
+  console.log(`Current Environment: ${process.env.NODE_ENV}`);
   applyMiddleware(app);
   applyGlobalSettings(app);
 
