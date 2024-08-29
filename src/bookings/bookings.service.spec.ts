@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { BookingsService } from './bookings.service';
-import { PaymentService } from '../payments/payments.service';
+import { PaymentsService } from '../payments/payments.service';
 import { Booking, PassengerDetails } from './interfaces/booking.interface';
 import { BOOKING_REPOSITORY_TOKEN } from './bookings.constant';
 import { BookingRepository } from './repositories/booking-repository';
@@ -42,20 +42,20 @@ const mockBookingRepository = {
 
 describe('BookingsService', () => {
   let bookingsService: BookingsService;
-  let paymentService: PaymentService;
+  let paymentService: PaymentsService;
   let bookingRepository: BookingRepository;
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
       providers: [
         BookingsService,
-        { provide: PaymentService, useValue: mockPaymentService }, // Use the mock payment service
+        { provide: PaymentsService, useValue: mockPaymentService }, // Use the mock payment service
         { provide: BOOKING_REPOSITORY_TOKEN, useValue: mockBookingRepository }, // Use the mock repository
       ],
     }).compile();
 
     bookingsService = module.get<BookingsService>(BookingsService);
-    paymentService = module.get<PaymentService>(PaymentService);
+    paymentService = module.get<PaymentsService>(PaymentsService);
     bookingRepository = module.get<BookingRepository>(BOOKING_REPOSITORY_TOKEN);
   });
 

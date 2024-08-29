@@ -3,7 +3,7 @@ import { PaymentChannels, PaymentInfo, PaymentStatus } from './interfaces/paymen
 import { v4 as uuidv4 } from 'uuid'; // Importing UUID package
 
 @Injectable()
-export class PaymentService {
+export class PaymentsService {
   async processPayment(amount: number, paymentChannel: PaymentChannels): Promise<PaymentInfo> {
     try {
       const paymentReferenceId = this.createPaymentReferenceId(); // Generate a more robust unique payment reference ID

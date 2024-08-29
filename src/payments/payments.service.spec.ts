@@ -1,16 +1,16 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { InternalServerErrorException } from '@nestjs/common';
-import { PaymentService } from './payments.service';
+import { PaymentsService } from './payments.service';
 
 describe('PaymentService', () => {
-  let paymentService: PaymentService;
+  let paymentService: PaymentsService;
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
-      providers: [PaymentService],
+      providers: [PaymentsService],
     }).compile();
 
-    paymentService = module.get<PaymentService>(PaymentService);
+    paymentService = module.get<PaymentsService>(PaymentsService);
   });
 
   it('should be defined', () => {
