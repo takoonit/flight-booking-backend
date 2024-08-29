@@ -1,9 +1,17 @@
 import { Module } from '@nestjs/common';
-import { FlightsController } from './flights.controller';
 import { FlightsService } from './flights.service';
+import { FLIGHT_REPOSITORY_TOKEN } from './flights.constant';
+import { FlightRepository } from './repositories/flight-repository';
+import { CacheModule } from '@nestjs/cache-manager';
 
 @Module({
-  controllers: [FlightsController],
-  providers: [FlightsService]
+  imports: [
+    CacheModule.register(), // Register the CacheModule
+  ],
+  providers: [
+    FlightsService,
+    { provide: FLIGHT_REPOSITORY_TOKEN, useClass: FlightRepository }, // Use FileFlightDataSourceService for FlightDataSource
+  ],
 })
-export class FlightsModule {}
+export class FlightsModule {
+}

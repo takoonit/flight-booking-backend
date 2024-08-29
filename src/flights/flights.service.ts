@@ -1,10 +1,12 @@
-import { Injectable } from '@nestjs/common';
+import { Inject, Injectable } from '@nestjs/common';
 import { FlightRepository } from './repositories/flight-repository';
 import { Flight } from './interfaces/flight.interface';
+import { FLIGHT_REPOSITORY_TOKEN } from './flights.constant';
 
 @Injectable()
 export class FlightsService {
-  constructor(private readonly flightRepository: FlightRepository) {} // Inject the repository
+  constructor(@Inject(FLIGHT_REPOSITORY_TOKEN) private readonly flightRepository: FlightRepository) {
+  } // Inject the repository
 
   async searchFlights(origin: string, destination: string, date: string): Promise<Flight[]> {
     const flights = await this.flightRepository.fetchFlights(); // Use the repository to find all flights

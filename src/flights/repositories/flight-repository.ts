@@ -4,9 +4,11 @@ import { promises as fs } from 'fs';
 import * as path from 'path';
 import { Flight } from '../interfaces/flight.interface';
 import { CACHE_MANAGER } from '@nestjs/cache-manager';
+import { FlightRepositoryInterface } from '../interfaces/flight-repository.interface';
+import { Error, Promise } from 'mongoose';
 
 @Injectable()
-export class FlightRepository implements FlightRepository {
+export class FlightRepository implements FlightRepositoryInterface {
   private static readonly MOCK_DATA_PATH = path.join(__dirname, '../mock/flights.json');
   private static readonly CACHE_KEY = 'allFlights';
   private static readonly LOCATIONS_CACHE_KEY = 'flightLocations';
@@ -57,5 +59,9 @@ export class FlightRepository implements FlightRepository {
 
   private logReadError(error: Error): void {
     console.error('Error reading mock flights data:', error);
+  }
+
+  create(flight: Flight): Promise<Flight> {
+    return Promise.resolve(undefined);
   }
 }
