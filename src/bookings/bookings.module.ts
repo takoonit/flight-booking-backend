@@ -5,7 +5,6 @@ import { PaymentsModule } from '../payments/payments.module';
 import { BookingsService } from './bookings.service';
 import { BookingsController } from './bookings.controller';
 import { BookingRepository } from './repositories/booking-repository';
-import { BookingRepositoryInterface } from './interfaces/booking-repository.interface'
 import { BOOKING_REPOSITORY_TOKEN } from './bookings.constant';
 @Module({
   imports: [
